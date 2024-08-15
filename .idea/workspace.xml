@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca68d28-79fd-4aaf-84fe-a5ef3a15f977" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/CardPackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/GoodSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/question/amazon/SubRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/question/amazon/SubRange.java" afterDir="false" />
+    <list default="true" id="1ca68d28-79fd-4aaf-84fe-a5ef3a15f977" name="Changes" comment="TikTok question update">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721675968866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TikTok question update">
+      <created>1723763406656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723763406656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="TikTok question update" />
+    <option name="LAST_COMMIT_MESSAGE" value="TikTok question update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,11 +200,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/question/tiktok/CardPackets.java</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
