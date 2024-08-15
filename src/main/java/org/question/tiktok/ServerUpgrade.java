@@ -22,14 +22,15 @@ public class ServerUpgrade {
 
             for(int idx = 0; idx < size; idx++) {
                 // Calculate how many servers can be upgraded with the initial funds
-                int numberOfServerToUpgradeFromFund = Math.min(numServers[idx], money[idx] / upgrade[idx]);
-
-                // Calculate additional funds if one server is sold
-                int additionalFundIfServerSold = money[idx] + sell[idx];
-                int numberOfServerToUpgradeFromNewFund = Math.min(numServers[idx] - 1, additionalFundIfServerSold / upgrade[idx]);
-
-                // Maximize the number of upgraded servers
-                result[idx] = Math.max(numberOfServerToUpgradeFromFund, numberOfServerToUpgradeFromNewFund);
+                int upgradesWithInitialMoney = Math.min(numServers[idx], money[idx] / upgrade[idx]);
+                // If selling one server helps, calculate the impact
+                if (numServers[idx] > 1) {
+                    int newFunds = money[idx] + sell[idx];
+                    int upgradesWithSale = Math.min(numServers[idx] - 1, newFunds / upgrade[idx]);
+                    result[idx] = Math.max(upgradesWithInitialMoney, upgradesWithSale);
+                } else {
+                    result[idx] = upgradesWithInitialMoney;
+                }
             }
             return result;
         }
