@@ -9,14 +9,17 @@ import java.util.Map;
 public class SubRange {
     public static void main(String args[]) throws IOException
     {
-        //int input[] = {9,3,1,2,3,9,10};
-        int input[] = {9,3,3,3,9};
+        // int input[] = {9,3,1,2,3,9,10};
+        // int input[] = {9,3,3,3,9};
+        int input[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+        System.out.println(input.length);
         int count = getSubRangeCount(input);
         System.out.println(count);
     }
     public static int getSubRangeCount(int[] input)
     {
         int count = 0;
+        int iterations = 0;
         int len = input.length;
         int prefixSum[] = new int[len + 1];
         Map<Integer, List<Integer>> numIdxMap = new HashMap<>();
@@ -30,19 +33,21 @@ public class SubRange {
             numIdxMap.putIfAbsent(input[idx], new ArrayList<>());
             numIdxMap.get(input[idx]).add(idx);
         }
+        
+        //{ 9 : { 0.5} , 3 : {1, 4}, 2 : {3}, 1 : {2}, 10 : {6}
+        //{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
 
         for(int idx = 2; idx < len; idx++)
         {
             List<Integer> indices = numIdxMap.get(input[idx]);
             for(int index : indices)
             {
-                if(index < idx)
+                if(idx - index > 1)
                 {
-                    if(idx - 1 > 0) {
-                        int sum = prefixSum[idx - 1] - prefixSum[index];
-                        if(sum == input[idx])
-                            count++;
-                    }
+                    System.out.println("iterations :" + iterations++);
+                    int sum = prefixSum[idx - 1] - prefixSum[index];
+                    if(sum == input[idx])
+                        count++;
                 }
             }
         }

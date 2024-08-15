@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ca68d28-79fd-4aaf-84fe-a5ef3a15f977" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/amazon/SubRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/uber/EulerianCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/uber/MagicalString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/uber/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/uber/MinimumSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/uber/PermutationTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/CardPackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/GoodSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/question/amazon/SubRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/question/amazon/SubRange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +55,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/question/amazon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubRange">
-    <configuration name="EulerianCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.question.uber.EulerianCircuit" />
+  <component name="RunManager" selected="Application.ServerUpgrade">
+    <configuration name="CardPackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.question.tiktok.CardPackets" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.question.uber.*" />
+          <option name="PATTERN" value="org.question.tiktok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +69,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.question.uber.PermutationTree" />
+    <configuration name="GoodSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.question.tiktok.GoodSubarray" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.question.uber.*" />
+          <option name="PATTERN" value="org.question.tiktok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerUpgrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.question.tiktok.ServerUpgrade" />
+      <module name="Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.question.tiktok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.question.amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.question.uber.TreeCombinations" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.question.uber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerUpgrade" />
+        <item itemvalue="Application.GoodSubarray" />
+        <item itemvalue="Application.CardPackets" />
         <item itemvalue="Application.SubRange" />
         <item itemvalue="Application.subRange" />
-        <item itemvalue="Application.PermutationTree" />
-        <item itemvalue="Application.TreeCombinations" />
-        <item itemvalue="Application.EulerianCircuit" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717446642271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1721675968866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721675968866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +191,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/question/uber/EulerianCircuit.java</url>
           <line>51</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/question/tiktok/CardPackets.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/question/tiktok/ServerUpgrade.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
